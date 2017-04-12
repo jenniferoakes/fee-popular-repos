@@ -19,6 +19,18 @@ git diff `full file name`
 ```
 - This tells you exactly what changed in your files so you can create better commit messages.
 
+## Filter Notes:
+
+```
+function sizeFilter() {
+  return function doSizeFilter(size) {
+    return (size/1000) +'MB';
+  };
+}
+
+```
+- We put a function inside of a filter function because the first function is executed one time when the page loads. The function inside of the function executes as many times as it needs to. Also note, the first argument into a filter function is **ALWAYS** the thing on the left of the pipe, in the HTML. 
+
 ## TODO:
 - [X] Get click working
 
