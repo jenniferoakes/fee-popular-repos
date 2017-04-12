@@ -8,6 +8,7 @@
 
       /**
        * @param {Array}
+       * @return {}
        */
       return function executePopularityFilter(collection) {
 
@@ -18,9 +19,6 @@
           let popularityRepo2 = ( (repo2.stargazers_count) + (2*(repo2.forks)) + ((1/2)*(repo2.open_issues_count)) );
           return popularityRepo2 - popularityRepo1;
         });
-
-        // let popularity = ((a.stargazers_count) + (2*(a.forks) + ((1/2)*(a.open_issues_count)));
-
       };
     }
 }());
