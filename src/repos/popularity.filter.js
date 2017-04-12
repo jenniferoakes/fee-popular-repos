@@ -3,6 +3,8 @@
 
     angular.module('gh')
       .filter('popularity', popularityFilter);
+      // 'popularity' is used in the HTML after the pipe
+      // popularityFilter only exists in THIS file
 
     function popularityFilter() {
 

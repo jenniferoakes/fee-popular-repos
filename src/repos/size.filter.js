@@ -2,7 +2,7 @@
   'use strict';
 
     angular.module('gh')
-      .filter('sizeFilter', sizeFilter);
+      .filter('size', sizeFilter);
 
     function sizeFilter() {
       return function doSizeFilter(size) {
