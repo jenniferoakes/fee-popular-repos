@@ -36,6 +36,10 @@
                 }
             }).then(function handleResponse(response) {
                 console.log('Response from GitHub:', response);
+                // ......here is where I can do the work to make a value for popularity
+                response.data.forEach(function makePopularityProperty(repo) {
+                  repo.popularity = repo.stargazers_count + (2*repo.forks) + (0.5*repo.open_issues_count);
+                });
                 return response.data;
             });
         }
