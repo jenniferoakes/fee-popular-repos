@@ -36,11 +36,12 @@
                 }
             }).then(function handleResponse(response) {
                 console.log('Response from GitHub:', response);
-                // ......here is where I can do the work to make a value for popularity
+                // below is added work to add the popularity value to the response data 
                 response.data.forEach(function makePopularityProperty(repo) {
                   repo.popularity = repo.stargazers_count + (2*repo.forks) + (0.5*repo.open_issues_count);
                 });
                 return response.data;
+                //above is where I could sort ex. response.data.sort() to make the load of the data into the page faster
             });
         }
 
