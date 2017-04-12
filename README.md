@@ -22,6 +22,9 @@ git diff `full file name`
 ## TODO:
 - [X] Get click working
 
+## Notes:
+- ng-repeat only works with arrays
+
 By: [Jennifer Oakes](https://www.linkedin.com/in/jennifernicoleoakes/)
 
 April 2017
