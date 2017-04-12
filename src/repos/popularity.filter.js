@@ -8,9 +8,9 @@
 
     function popularityFilter() {
 
-      /**
+      /** Reorders an array by popularity
        * @param {Array}
-       * @return {}
+       * @return {Array}
        */
       return function executePopularityFilter(collection) {
 
