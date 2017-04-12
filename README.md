@@ -29,10 +29,7 @@ function sizeFilter() {
 }
 
 ```
-- We put a function inside of a filter function because the first function is executed one time when the page loads. The function inside of the function executes as many times as it needs to. Also note, the first argument into a filter function is **ALWAYS** the thing on the left of the pipe, in the HTML. 
-
-## TODO:
-- [X] Get click working
+- We put a function inside of a filter function because the first function is executed one time when the page loads. The function inside of the function executes as many times as it needs to. Also note, the first argument into a filter function is **ALWAYS** the thing on the left of the pipe, in the HTML.
 
 ## Notes:
 - ng-repeat only works with arrays
