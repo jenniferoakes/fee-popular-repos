@@ -20,7 +20,7 @@ git diff `full file name`
 - This tells you exactly what changed in your files so you can create better commit messages.
 
 ## TODO:
-- [ ] Get click working
+- [X] Get click working
 
 By: [Jennifer Oakes](https://www.linkedin.com/in/jennifernicoleoakes/)
 
